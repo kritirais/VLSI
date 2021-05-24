@@ -1,5 +1,5 @@
 # VLSI
-This repository contains hardware programming problems in Verilog. The program is compiled using Synopsys VCS Compiler using the following syntax.
+This repository contains hardware programming problems in Verilog/VHDL. The program is compiled using Synopsys VCS Compiler using the following syntax.
 SYNTAX:
 vcs -full64 -sverilog top.v test_top.v && ./simv
 
