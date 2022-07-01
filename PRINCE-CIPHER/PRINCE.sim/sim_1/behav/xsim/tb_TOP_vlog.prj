@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../PRINCE.srcs/sources_1/new/Decrypt.v" \
+"../../../../PRINCE.srcs/sources_1/new/Encrypt.v" \
+"../../../../PRINCE.srcs/sources_1/new/InvSbox.v" \
+"../../../../PRINCE.srcs/sources_1/new/M.v" \
+"../../../../PRINCE.srcs/sources_1/new/MPrime.v" \
+"../../../../PRINCE.srcs/sources_1/new/Minv.v" \
+"../../../../PRINCE.srcs/sources_1/new/PrinceCore.v" \
+"../../../../PRINCE.srcs/sources_1/new/Sbox.v" \
+"../../../../PRINCE.srcs/sources_1/new/TOP.v" \
+"../../../../PRINCE.srcs/sim_1/new/tb_TOP.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

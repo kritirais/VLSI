@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_TOP_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_TOP" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="71.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="149.001 ns"></ZoomEndTime>
+      <Cursor1Time time="136.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="204"></NameColumnWidth>
+      <ValueColumnWidth column_width="97"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/tb_TOP/tb_data" type="array">
+      <obj_property name="ElementShortName">tb_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/tb_key" type="array">
+      <obj_property name="ElementShortName">tb_key[127:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_key[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/tb_clk" type="logic">
+      <obj_property name="ElementShortName">tb_clk</obj_property>
+      <obj_property name="ObjectShortName">tb_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/tb_rst" type="logic">
+      <obj_property name="ElementShortName">tb_rst</obj_property>
+      <obj_property name="ObjectShortName">tb_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/t1/pc1/temp" type="array">
+      <obj_property name="ElementShortName">temp[63:0]</obj_property>
+      <obj_property name="ObjectShortName">temp[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/t1/pc1/sb_out" type="array">
+      <obj_property name="ElementShortName">sb_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">sb_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/t1/pc1/M_out" type="array">
+      <obj_property name="ElementShortName">M_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">M_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/t1/pc1/round" type="array">
+      <obj_property name="ElementShortName">round[3:0]</obj_property>
+      <obj_property name="ObjectShortName">round[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/t1/k1" type="array">
+      <obj_property name="ElementShortName">k1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">k1[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/t1/pc1/temp_next" type="array">
+      <obj_property name="ElementShortName">temp_next[63:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_next[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/t1/pc1/isbPr_out" type="array">
+      <obj_property name="ElementShortName">isbPr_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">isbPr_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/t1/pc1/MPr_out" type="array">
+      <obj_property name="ElementShortName">MPr_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">MPr_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/t1/pc1/isb_out_pre" type="array">
+      <obj_property name="ElementShortName">isb_out_pre[63:0]</obj_property>
+      <obj_property name="ObjectShortName">isb_out_pre[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/t1/pc1/im_out" type="array">
+      <obj_property name="ElementShortName">im_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">im_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/t1/pc1/isb_out" type="array">
+      <obj_property name="ElementShortName">isb_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">isb_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/t1/out" type="array">
+      <obj_property name="ElementShortName">out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/t1/coreout" type="array">
+      <obj_property name="ElementShortName">coreout[63:0]</obj_property>
+      <obj_property name="ObjectShortName">coreout[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/t1/pc1/RC" type="array">
+      <obj_property name="ElementShortName">RC[12:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">RC[12:0][63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/t1/k0" type="array">
+      <obj_property name="ElementShortName">k0[63:0]</obj_property>
+      <obj_property name="ObjectShortName">k0[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/t1/k1" type="array">
+      <obj_property name="ElementShortName">k1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">k1[63:0]</obj_property>
+   </wvobject>
+</wave_config>

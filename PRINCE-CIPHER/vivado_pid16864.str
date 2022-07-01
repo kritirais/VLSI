@@ -1,0 +1,248 @@
+/*
+
+Xilinx Vivado v2021.2 (64-bit) [Major: 2021, Minor: 2]
+SW Build: 3367213 on Tue Oct 19 02:48:09 MDT 2021
+IP Build: 3369179 on Thu Oct 21 08:25:16 MDT 2021
+
+Process ID (PID): 16864
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sat Apr 30 21:09:14 PDT 2022
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 150
+Available screens: 2
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=18
+Scale size: 27
+
+Java version: 	11.0.11 64-bit
+Java home: 	C:/Vivado/2021.2/tps/win64/jre11.0.11_9
+Java executable: 	C:/Vivado/2021.2/tps/win64/jre11.0.11_9/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	CSUFTitan
+User home directory: C:/Users/CSUFTitan
+User working directory: C:/Users/CSUFTitan/OneDrive - Cal State Fullerton/Documents/CSUF/SPRING'22/EGCP 543/ASSIGNMENTS/PRINCE
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Vivado
+HDI_APPROOT: C:/Vivado/2021.2
+RDI_DATADIR: C:/Vivado/2021.2/data
+RDI_BINDIR: C:/Vivado/2021.2/bin
+
+Vivado preferences file: C:/Users/CSUFTitan/AppData/Roaming/Xilinx/Vivado/2021.2/vivado.xml
+Vivado preferences directory: C:/Users/CSUFTitan/AppData/Roaming/Xilinx/Vivado/2021.2/
+Vivado layouts directory: C:/Users/CSUFTitan/AppData/Roaming/Xilinx/Vivado/2021.2/data/layouts
+PlanAhead jar file: 	C:/Vivado/2021.2/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/CSUFTitan/OneDrive - Cal State Fullerton/Documents/CSUF/SPRING'22/EGCP 543/ASSIGNMENTS/PRINCE/vivado.log
+Vivado journal file: 	C:/Users/CSUFTitan/OneDrive - Cal State Fullerton/Documents/CSUF/SPRING'22/EGCP 543/ASSIGNMENTS/PRINCE/vivado.jou
+Engine tmp dir: 	C:/Users/CSUFTitan/OneDrive - Cal State Fullerton/Documents/CSUF/SPRING'22/EGCP 543/ASSIGNMENTS/PRINCE/.Xil/Vivado-16864-CSUFLT-5gxxzz2
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Vivado/2021.2/ids_lite/ISE
+XILINX_DSP: C:/Vivado/2021.2/ids_lite/ISE
+XILINX_HLS: C:/Vitis_HLS/2021.2
+XILINX_PLANAHEAD: C:/Vivado/2021.2
+XILINX_VIVADO: C:/Vivado/2021.2
+XILINX_VIVADO_HLS: C:/Vivado/2021.2
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,162 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project {C:/Users/CSUFTitan/OneDrive - Cal State Fullerton/Documents/CSUF/SPRING'22/EGCP 543/ASSIGNMENTS/PRINCE/PRINCE.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/CSUFTitan/OneDrive - Cal State Fullerton/Documents/CSUF/SPRING'22/EGCP 543/ASSIGNMENTS/PRINCE' 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,162 MB. GUI used memory: 72 MB. Current time: 4/30/22, 9:09:16 PM PDT
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/CSUFTitan/OneDrive - Cal State Fullerton/Documents/CSUF/SPRING'22/EGCP 543/ASSIGNMENTS/PRINCE/PRINCE.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/CSUFTitan/OneDrive - Cal State Fullerton/Documents/CSUF/SPRING'22/EGCP 543/ASSIGNMENTS/PRINCE' 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/CSUFTitan/Downloads/PRINCE' since last save. INFO: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/CSUFTitan/OneDrive - Cal State Fullerton/Documents/CSUF/SPRING'22/EGCP 543/ASSIGNMENTS/PRINCE/PRINCE.gen/sources_1', nor could it be found using path 'C:/Users/CSUFTitan/Downloads/PRINCE/PRINCE.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 101 MB (+103435kb) [00:00:23]
+// [Engine Memory]: 1,162 MB (+1066846kb) [00:00:23]
+// WARNING: HEventQueue.dispatchEvent() is taking  2784 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2021.2/data/ip'. 
+// [GUI Memory]: 133 MB (+27722kb) [00:00:28]
+// Project name: PRINCE; location: C:/Users/CSUFTitan/OneDrive - Cal State Fullerton/Documents/CSUF/SPRING'22/EGCP 543/ASSIGNMENTS/PRINCE; part: xc7k70tfbv676-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:32 ; elapsed = 00:00:19 . Memory (MB): peak = 1239.559 ; gain = 0.000 
+dismissDialog("Open Project"); // bA
+// Tcl Message: update_compile_order -fileset sources_1 
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1077 ms. Increasing delay to 3231 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 2087 ms. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1519 ms. Increasing delay to 4000 ms.
+// Elapsed time: 803 seconds
+selectButton(RDIResourceCommand.RDICommands_SETTINGS, "xc7k70tfbv676-1"); // g
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// WARNING: HEventQueue.dispatchEvent() is taking  2629 ms.
+// [GUI Memory]: 155 MB (+17114kb) [00:13:57]
+selectButton(PAResourceQtoS.SettingsProjectGeneralPage_CHOOSE_DEVICE_FOR_YOUR_PROJECT, (String) null); // s
+// Elapsed time: 10 seconds
+selectTab(PAResourceOtoP.PartChooser_TABBED_PANE, (HResource) null, "Boards", 1); // i
+selectTreeTable(PAResourceAtoD.BoardChooser_BOARD_TABLE, "Artix-7 AC701 Evaluation Platform ; Artix-7 AC701 Evaluation Platform ; xilinx.com ; 1.4 ; xc7a200tfbg676-2 ; 676 ; 1.1 ; 400 ; 134600 ; 269200 ; 365 ; 0 ; 740 ; 8 ; 8 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 10 ;  ;  ;  ;  ; 0 ;  ;  ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 0, "Artix-7 AC701 Evaluation Platform", 0, false); // ah
+openHTML ("www.xilinx.com/ac701"); // ah
+selectTab(PAResourceOtoP.PartChooser_TABBED_PANE, (HResource) null, "Parts", 0); // i
+selectComboBox(PAResourceEtoH.FPGAChooser_FAMILY, "Artix-7", 1); // q
+// Elapsed time: 11 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Select Device"); // c
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Settings"); // d
+// Elapsed time: 12 seconds
+selectTreeTableHeader(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "BRAM", 13); // az
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // n
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // n
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Report Utilization]", 24, false); // n
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7k70tfbv676-1 
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,162 MB. GUI used memory: 120 MB. Current time: 4/30/22, 9:24:11 PM PDT
+// Xgd.load filename: C:/Vivado/2021.2/data/parts/xilinx/kintex7/devint/kintex7/xc7k70t/xc7k70t.xgd; ZipEntry: xc7k70t_detail.xgd elapsed time: 0.6s
+// [GUI Memory]: 166 MB (+2660kb) [00:15:10]
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 0.7s
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 1.1s
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  3517 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xc7k70tfbv676-1 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 1357.172 ; gain = 0.000 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 24 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2021.2 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1448.973 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: open_run: Time (s): cpu = 00:00:17 ; elapsed = 00:00:13 . Memory (MB): peak = 1570.215 ; gain = 330.656 
+// Device view-level: 0.0
+// Run Command: PAResourceCommand.PACommandNames_RESOURCE_UTILIZATION
+// Elapsed time: 15 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Report Utilization"); // a
+// Tcl Message: report_utilization -name utilization_1 
+// TclEventType: UTILIZATION_RESULT_GENERATED
+// [GUI Memory]: 180 MB (+6162kb) [00:15:17]
+// [GUI Memory]: 190 MB (+1140kb) [00:15:17]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,162 MB. GUI used memory: 135 MB. Current time: 4/30/22, 9:24:21 PM PDT
+dismissDialog("Report Utilization"); // bA
+selectTree(PAResourceQtoS.ReportUtilTab_REPORT_UTILIZATION_NAVIGATION_TREE, "[Report Contents, Summary]", 1, false); // l
+// RouteApi::initDelayMediator elapsed time: 17.3s
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// WARNING: HTimer (Init Timing Data Timer) is taking 102ms to process. Increasing delay to 1500 ms.
+// Elapsed time: 13 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // j
+closeTask("Synthesis", "Synthesized Design", "DesignTask.NETLIST_PLANNING");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Confirm Close"); // A
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,162 MB. GUI used memory: 113 MB. Current time: 4/30/22, 9:24:39 PM PDT
+// Engine heap size: 1,162 MB. GUI used memory: 114 MB. Current time: 4/30/22, 9:24:39 PM PDT
+// WARNING: HEventQueue.dispatchEvent() is taking  1115 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: DESIGN_CLOSE
+dismissDialog("Close"); // bA
+selectButton(RDIResourceCommand.RDICommands_SETTINGS, "xc7k70tfbv676-1"); // g
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Elapsed time: 59 seconds
+selectButton(PAResourceQtoS.SettingsProjectGeneralPage_CHOOSE_DEVICE_FOR_YOUR_PROJECT, (String) null); // s
+selectComboBox(PAResourceEtoH.FPGAChooser_FAMILY, "Artix-7", 1); // q
+selectTable(PAResourceEtoH.FPGAChooser_FPGA_TABLE, "xc7a200tsbg484-1 ; 484 ; 285 ; 134600 ; 269200 ; 365 ; 0 ; 740 ; 4 ; 4 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 10 ;  ;  ;  ;  ; 0 ;  ;  ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 170, "xc7a200tsbg484-1", 0); // r
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Select Device"); // c
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+dismissDialog("Create New Run"); // A
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Tcl Command: 'copy_run -name synth_1_copy_1 [get_runs synth_1] '
+// TclEventType: RUN_ADD
+// Tcl Message: copy_run -name synth_1_copy_1 [get_runs synth_1]  
+// TclEventType: RUN_OPTIONS_MODIFIED
+// TclEventType: RUN_MODIFY
+// TclEventType: REPORT_CREATED
+// TclEventType: REPORT_MODIFY
+// Tcl Message: synth_1_copy_1 
+dismissDialog("Copy Run"); // bA
+// TclEventType: RUN_MODIFY
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: set_property part xc7a200tsbg484-1 [current_project] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PART_MODIFIED
+dismissDialog("Change Settings"); // bA
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Settings"); // d
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: INFO: [Project 1-1160] Copying file C:/Users/CSUFTitan/OneDrive - Cal State Fullerton/Documents/CSUF/SPRING'22/EGCP 543/ASSIGNMENTS/PRINCE/PRINCE.runs/synth_1/TOP.dcp to C:/Users/CSUFTitan/Downloads/PRINCE/PRINCE.srcs/utils_1/imports/synth_1 and adding it to utils fileset 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,162 MB. GUI used memory: 96 MB. Current time: 4/30/22, 9:26:51 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,162 MB. GUI used memory: 96 MB. Current time: 4/30/22, 9:27:21 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,162 MB. GUI used memory: 97 MB. Current time: 4/30/22, 9:27:51 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,162 MB. GUI used memory: 96 MB. Current time: 4/30/22, 9:29:21 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,162 MB. GUI used memory: 96 MB. Current time: 4/30/22, 9:29:51 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,162 MB. GUI used memory: 96 MB. Current time: 4/30/22, 9:30:21 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,162 MB. GUI used memory: 96 MB. Current time: 4/30/22, 9:30:51 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,162 MB. GUI used memory: 96 MB. Current time: 4/30/22, 9:32:21 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,162 MB. GUI used memory: 96 MB. Current time: 4/30/22, 9:32:51 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,162 MB. GUI used memory: 96 MB. Current time: 4/30/22, 9:33:21 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,162 MB. GUI used memory: 96 MB. Current time: 4/30/22, 9:33:51 PM PDT
+// Elapsed time: 510 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a
+// 'k' command handler elapsed time: 510 seconds
+selectButton("HStatusBar_ProgressStatusItem_Cancel", "Cancel"); // NullButton
+// Elapsed time: 10 seconds
+closeMainWindow("PRINCE - [C:/Users/CSUFTitan/OneDrive - Cal State Fullerton/Documents/CSUF/SPRING'22/EGCP 543/ASSIGNMENTS/PRINCE/PRINCE.xpr] - Vivado 2021.2"); // bb
+// HOptionPane Warning: 'A background task is running. Please wait until it completes to exit Vivado. If you choose to abort background task and exit immediately, you will lose all unsaved changes to project. (Background Task)'

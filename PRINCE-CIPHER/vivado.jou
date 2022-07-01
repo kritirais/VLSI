@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sat Apr 30 22:35:24 2022
+# Process ID: 12968
+# Current directory: C:/Users/CSUFTitan/Downloads/PRINCE
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18980 C:\Users\CSUFTitan\Downloads\PRINCE\PRINCE.xpr
+# Log file: C:/Users/CSUFTitan/Downloads/PRINCE/vivado.log
+# Journal file: C:/Users/CSUFTitan/Downloads/PRINCE\vivado.jou
+# Running On: CSUFLT-5gxxzz2, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 2, Host memory: 8369 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/CSUFTitan/Downloads/PRINCE/PRINCE.xpr
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1
+report_utilization -name utilization_1
+set_property part xc7s100fgga676-1Q [current_project]
+close_design
+open_run synth_1 -name synth_1
+report_utilization -name utilization_1
+copy_run -name impl_1_copy_1 [get_runs impl_1] -parent_run synth_1
+set_property part xc7k160tlffv676-2L [current_project]
+close_design
+open_run synth_1 -name synth_1
+report_utilization -name utilization_1
+report_power -name {power_1}
+copy_run -name impl_1_copy_2 [get_runs impl_1] -parent_run synth_1
+set_property part xc7a200tsbv484-1 [current_project]
+close_design
+open_run synth_1 -name synth_1
+report_utilization -name utilization_1
+report_power -name {power_1}
+copy_run -name impl_1_copy_3 [get_runs impl_1] -parent_run synth_1
+set_property part xc7a200tlsbv484-2L [current_project]
+close_design
+open_run synth_1 -name synth_1
+report_utilization -name utilization_1
+report_power -name {power_1}

@@ -1,0 +1,15 @@
+0.7
+2020.2
+Oct 19 2021
+03:16:22
+C:/Users/CSUFTitan/Downloads/PRINCE/PRINCE.sim/sim_1/behav/xsim/glbl.v,1634335545,verilog,,,,glbl,,,,,,,,
+C:/Users/CSUFTitan/Downloads/PRINCE/PRINCE.srcs/sim_1/new/tb_TOP.v,1651130272,verilog,,,,tb_TOP,,,,,,,,
+C:/Users/CSUFTitan/Downloads/PRINCE/PRINCE.srcs/sources_1/new/Decrypt.v,1651130396,verilog,,C:/Users/CSUFTitan/Downloads/PRINCE/PRINCE.srcs/sources_1/new/Encrypt.v,,Decrypt,,,,,,,,
+C:/Users/CSUFTitan/Downloads/PRINCE/PRINCE.srcs/sources_1/new/Encrypt.v,1651128923,verilog,,C:/Users/CSUFTitan/Downloads/PRINCE/PRINCE.srcs/sources_1/new/InvSbox.v,,Encrypt,,,,,,,,
+C:/Users/CSUFTitan/Downloads/PRINCE/PRINCE.srcs/sources_1/new/InvSbox.v,1651083303,verilog,,C:/Users/CSUFTitan/Downloads/PRINCE/PRINCE.srcs/sources_1/new/M.v,,InvSbox,,,,,,,,
+C:/Users/CSUFTitan/Downloads/PRINCE/PRINCE.srcs/sources_1/new/M.v,1651125345,verilog,,C:/Users/CSUFTitan/Downloads/PRINCE/PRINCE.srcs/sources_1/new/MPrime.v,,M,,,,,,,,
+C:/Users/CSUFTitan/Downloads/PRINCE/PRINCE.srcs/sources_1/new/MPrime.v,1651083429,verilog,,C:/Users/CSUFTitan/Downloads/PRINCE/PRINCE.srcs/sources_1/new/Minv.v,,MPrime,,,,,,,,
+C:/Users/CSUFTitan/Downloads/PRINCE/PRINCE.srcs/sources_1/new/Minv.v,1651086978,verilog,,C:/Users/CSUFTitan/Downloads/PRINCE/PRINCE.srcs/sources_1/new/PrinceCore.v,,Minv,,,,,,,,
+C:/Users/CSUFTitan/Downloads/PRINCE/PRINCE.srcs/sources_1/new/PrinceCore.v,1651128807,verilog,,C:/Users/CSUFTitan/Downloads/PRINCE/PRINCE.srcs/sources_1/new/Sbox.v,,PrinceCore,,,,,,,,
+C:/Users/CSUFTitan/Downloads/PRINCE/PRINCE.srcs/sources_1/new/Sbox.v,1651083240,verilog,,C:/Users/CSUFTitan/Downloads/PRINCE/PRINCE.srcs/sources_1/new/TOP.v,,Sbox,,,,,,,,
+C:/Users/CSUFTitan/Downloads/PRINCE/PRINCE.srcs/sources_1/new/TOP.v,1651130716,verilog,,C:/Users/CSUFTitan/Downloads/PRINCE/PRINCE.srcs/sim_1/new/tb_TOP.v,,TOP,,,,,,,,
